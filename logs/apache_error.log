@@ -1,0 +1,32 @@
+[Thu Nov 24 18:25:20.782886 2022] [:notice] [pid 51136] FastCGI: process manager initialized (pid 51136)
+[Thu Nov 24 18:25:20.784753 2022] [mpm_prefork:notice] [pid 51130] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Thu Nov 24 18:25:20.784920 2022] [core:notice] [pid 51130] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Thu Nov 24 18:49:06.244689 2022] [php7:error] [pid 51138] [client ::1:54312] script '/Applications/MAMP/bin/mamp/hello.php' not found or unable to stat
+[Fri Nov 25 13:21:37.637214 2022] [mpm_prefork:notice] [pid 51130] AH00169: caught SIGTERM, shutting down
+[Fri Nov 25 13:21:43.334143 2022] [:notice] [pid 78931] FastCGI: process manager initialized (pid 78931)
+[Fri Nov 25 13:21:43.339061 2022] [mpm_prefork:notice] [pid 78926] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Fri Nov 25 13:21:43.339601 2022] [core:notice] [pid 78926] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Fri Nov 25 13:28:36.140596 2022] [php7:error] [pid 78935] [client ::1:56622] script '/Applications/MAMP/htdocs/reachbase/index.php' not found or unable to stat
+[Fri Nov 25 13:35:49.361373 2022] [authz_core:error] [pid 79814] [client ::1:56642] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/reachbase/.DS_Store
+[Fri Nov 25 13:36:04.936473 2022] [authz_core:error] [pid 78932] [client ::1:56645] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/reachbase/.DS_Store
+[Fri Nov 25 13:40:57.194187 2022] [mpm_prefork:notice] [pid 78926] AH00169: caught SIGTERM, shutting down
+[Fri Nov 25 13:41:03.239472 2022] [:notice] [pid 81952] FastCGI: process manager initialized (pid 81952)
+[Fri Nov 25 13:41:03.240781 2022] [mpm_prefork:notice] [pid 81948] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Fri Nov 25 13:41:03.241007 2022] [core:notice] [pid 81948] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Fri Nov 25 13:41:10.384359 2022] [php7:error] [pid 81954] [client ::1:56662] script '/Applications/MAMP/htdocs/hello.php' not found or unable to stat
+[Wed Nov 30 14:12:00.084740 2022] [mpm_prefork:notice] [pid 81948] AH00169: caught SIGTERM, shutting down
+[Wed Nov 30 14:12:08.200076 2022] [:notice] [pid 5758] FastCGI: process manager initialized (pid 5758)
+[Wed Nov 30 14:12:08.201793 2022] [mpm_prefork:notice] [pid 5754] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Wed Nov 30 14:12:08.201940 2022] [core:notice] [pid 5754] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Wed Nov 30 15:19:33.907567 2022] [php7:error] [pid 5761] [client ::1:52622] script '/Applications/MAMP/htdocs/db_connect.php' not found or unable to stat
+[Wed Nov 30 15:31:27.250066 2022] [php7:error] [pid 5763] [client ::1:52717] script '/Applications/MAMP/htdocs/todo/todo.php' not found or unable to stat, referer: http://localhost:8888/todo/login.php
+[Wed Nov 30 17:04:20.596599 2022] [php7:error] [pid 5761] [client ::1:57853] script '/Applications/MAMP/htdocs/todo/main.php' not found or unable to stat
+[Wed Nov 30 17:04:28.776453 2022] [php7:error] [pid 5759] [client ::1:57854] script '/Applications/MAMP/htdocs/todo/main.php' not found or unable to stat
+[Wed Nov 30 17:04:31.883275 2022] [php7:error] [pid 5759] [client ::1:57854] script '/Applications/MAMP/htdocs/todo/main.php' not found or unable to stat
+[Wed Nov 30 17:04:46.295806 2022] [php7:error] [pid 5857] [client ::1:57855] script '/Applications/MAMP/htdocs/todo/main.php' not found or unable to stat, referer: http://localhost:8888/todo/todo.php
+[Thu Dec 01 16:39:35.525295 2022] [authz_core:error] [pid 5857] [client ::1:64281] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/todo/.DS_Store
+[Thu Dec 01 16:43:36.916576 2022] [authz_core:error] [pid 5760] [client ::1:64289] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/todo/.DS_Store
+[Thu Dec 01 16:46:00.796367 2022] [authz_core:error] [pid 5858] [client ::1:64299] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/todo/.DS_Store
+[Thu Dec 01 17:02:10.871900 2022] [authz_core:error] [pid 5854] [client ::1:64395] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/todo/.DS_Store
+[Thu Dec 01 17:03:48.221306 2022] [authz_core:error] [pid 5858] [client ::1:64451] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/todo/.DS_Store
+[Thu Dec 01 19:26:49.376530 2022] [mpm_prefork:notice] [pid 5754] AH00169: caught SIGTERM, shutting down
