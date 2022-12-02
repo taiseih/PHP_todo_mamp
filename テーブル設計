@@ -1,0 +1,10 @@
+#tasks
+id int(11) not null PK
+title varchar(50) 
+content varchr(255)
+time timestamp
+
+#users
+id int(11) not null PK
+name varchar(16)
+password varchar(80)
