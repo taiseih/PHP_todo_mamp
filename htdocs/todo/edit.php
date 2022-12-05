@@ -17,6 +17,7 @@
     $data = $stmt->fetch(PDO::FETCH_ASSOC);
     $title = $data['title'];
     $content = $data['content'];
+    $id = $data['id'];
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +35,7 @@
         <form action="update.php" method="POST">
             <input type="text" class="input-area" name="title" value="<?php echo $title;?>"> <br>
             <input type="text" class="input-area" name="content" value="<?php echo $content;?>"> <br>
-            <input type="hidden" name="id" value="<?php echo $data['id']; ?>"> 
+            <input type="hidden" name="id" value="<?php echo $id ?>"> 
             <input type="submit" class="input-area submit" name="submit" value="更新">
         </form>
         <a class="return" href="todo.php">戻る</a>

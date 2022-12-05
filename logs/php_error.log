@@ -392,3 +392,5 @@ Stack trace:
 [05-Dec-2022 03:45:48 UTC] PHP Notice:  Undefined index: search_word in /Applications/MAMP/htdocs/todo/todo.php on line 6
 [05-Dec-2022 03:45:57 UTC] PHP Notice:  Undefined index: search in /Applications/MAMP/htdocs/todo/todo.php on line 5
 [05-Dec-2022 03:45:57 UTC] PHP Notice:  Undefined index: search_word in /Applications/MAMP/htdocs/todo/todo.php on line 6
+[05-Dec-2022 03:51:20 UTC] PHP Notice:  Undefined index: search in /Applications/MAMP/htdocs/todo/todo.php on line 5
+[05-Dec-2022 03:51:20 UTC] PHP Notice:  Undefined index: search_word in /Applications/MAMP/htdocs/todo/todo.php on line 6
