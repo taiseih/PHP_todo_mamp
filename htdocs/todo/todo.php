@@ -22,7 +22,7 @@ try {
 if (!empty($search) && !empty($search_word)) {
     $search_pdo = dbConnect();
     try {
-        $search_sql = "select * from tasks where content like '%$search_word%' or title like '%$search_word%'";
+        $search_sql = "SELECT * FROM tasks WHERE content LIKE '%$search_word%' OR title LIKE '%$search_word%'";
         $stmt = $search_pdo->prepare($search_sql);
         $stmt->execute();
     } catch (PDOException $e) {
