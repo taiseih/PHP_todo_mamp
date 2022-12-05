@@ -30,3 +30,25 @@
 [Thu Dec 01 17:02:10.871900 2022] [authz_core:error] [pid 5854] [client ::1:64395] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/todo/.DS_Store
 [Thu Dec 01 17:03:48.221306 2022] [authz_core:error] [pid 5858] [client ::1:64451] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/todo/.DS_Store
 [Thu Dec 01 19:26:49.376530 2022] [mpm_prefork:notice] [pid 5754] AH00169: caught SIGTERM, shutting down
+[Fri Dec 02 09:45:21.686354 2022] [:notice] [pid 4816] FastCGI: process manager initialized (pid 4816)
+[Fri Dec 02 09:45:21.688447 2022] [mpm_prefork:notice] [pid 4811] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Fri Dec 02 09:45:21.688711 2022] [core:notice] [pid 4811] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Fri Dec 02 09:46:30.341064 2022] [authz_core:error] [pid 4817] [client ::1:54179] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/todo/.DS_Store
+[Fri Dec 02 12:43:47.471432 2022] [core:notice] [pid 4811] AH00052: child pid 4817 exit signal Abort trap (6)
+[Fri Dec 02 12:43:47.472028 2022] [core:notice] [pid 4811] AH00052: child pid 4820 exit signal Abort trap (6)
+[Fri Dec 02 12:43:47.472038 2022] [core:notice] [pid 4811] AH00052: child pid 4821 exit signal Abort trap (6)
+[Fri Dec 02 12:43:47.538742 2022] [mpm_prefork:notice] [pid 4811] AH00169: caught SIGTERM, shutting down
+[Fri Dec 02 16:35:14.694144 2022] [mpm_prefork:notice] [pid 29451] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Fri Dec 02 16:35:14.694644 2022] [core:notice] [pid 29451] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Fri Dec 02 16:35:14.695884 2022] [:notice] [pid 29454] FastCGI: process manager initialized (pid 29454)
+[Fri Dec 02 16:35:27.729431 2022] [authz_core:error] [pid 29456] [client ::1:56172] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/todo/.DS_Store
+[Sat Dec 03 12:11:24.663677 2022] [core:notice] [pid 29451] AH00052: child pid 29457 exit signal Abort trap (6)
+[Sat Dec 03 12:11:24.731007 2022] [mpm_prefork:notice] [pid 29451] AH00169: caught SIGTERM, shutting down
+[Sat Dec 03 12:29:42.117625 2022] [:notice] [pid 3383] FastCGI: process manager initialized (pid 3383)
+[Sat Dec 03 12:29:42.126696 2022] [mpm_prefork:notice] [pid 3378] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Sat Dec 03 12:29:42.126962 2022] [core:notice] [pid 3378] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Sat Dec 03 12:30:03.939915 2022] [mpm_prefork:notice] [pid 3378] AH00169: caught SIGTERM, shutting down
+[Mon Dec 05 10:37:44.979419 2022] [:notice] [pid 50067] FastCGI: process manager initialized (pid 50067)
+[Mon Dec 05 10:37:44.982100 2022] [mpm_prefork:notice] [pid 50064] AH00163: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 configured -- resuming normal operations
+[Mon Dec 05 10:37:44.982308 2022] [core:notice] [pid 50064] AH00094: Command line: '/Applications/MAMP/Library/bin/httpd'
+[Mon Dec 05 10:37:48.806282 2022] [authz_core:error] [pid 50072] [client ::1:60106] AH01630: client denied by server configuration: /Applications/MAMP/htdocs/todo/.DS_Store
