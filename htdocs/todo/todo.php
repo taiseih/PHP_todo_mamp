@@ -31,7 +31,7 @@ if (!empty($search) && !empty($search_word)) {
     }
 }
 
-var_dump($_POST)
+var_dump($_POST);
 
 ?>
 
